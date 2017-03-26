@@ -12,6 +12,7 @@ namespace HelloWorld
         {
 
             Console.WriteLine("Hello World !");
+            Console.Write("What the diffrent between Write & WriteLine ?");
             Console.ReadLine();
         }
     }
