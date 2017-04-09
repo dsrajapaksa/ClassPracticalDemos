@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalStatements", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repitition", "Repitition\Repitition.csproj", "{878F64A3-387C-40B0-ABC4-C789B3BD0EDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{4A57C819-C82C-4E08-B1A8-CCCAC9501576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{C0DC1606-FBFE-4B96-B45C-F6F3D9DFFBC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{878F64A3-387C-40B0-ABC4-C789B3BD0EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{878F64A3-387C-40B0-ABC4-C789B3BD0EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{878F64A3-387C-40B0-ABC4-C789B3BD0EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A57C819-C82C-4E08-B1A8-CCCAC9501576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A57C819-C82C-4E08-B1A8-CCCAC9501576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A57C819-C82C-4E08-B1A8-CCCAC9501576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A57C819-C82C-4E08-B1A8-CCCAC9501576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0DC1606-FBFE-4B96-B45C-F6F3D9DFFBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DC1606-FBFE-4B96-B45C-F6F3D9DFFBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DC1606-FBFE-4B96-B45C-F6F3D9DFFBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DC1606-FBFE-4B96-B45C-F6F3D9DFFBC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
