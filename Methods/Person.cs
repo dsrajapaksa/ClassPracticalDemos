@@ -23,8 +23,13 @@ namespace Methods
 
         public string GetLocation()
         {
+            Console.WriteLine("GetLocation Method is called !");
             return city + ", Sri Lanka";
         }
+
+
+
+
 
     }
 }

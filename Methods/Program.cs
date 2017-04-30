@@ -10,28 +10,32 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            Person ps1 = new Person();
-            Person person2 = new Person();
+            //Person ps1 = new Person();
+            //Person person2 = new Person();
 
-            ps1.name = "Saman";
-            ps1.id = "11212121";
-            ps1.age = 34;
-            ps1.city = "Colombo";
+            //ps1.name = "Saman";
+            //ps1.id = "11212121";
+            //ps1.age = 34;
+            //ps1.city = "Colombo";
 
-            person2.id = "9999";
-            person2.name = "Kamal";
-            person2.age = 67;
-            person2.city = "Gampaha";
+            //person2.id = "9999";
+            //person2.name = "Kamal";
+            //person2.age = 67;
+            //person2.city = "Gampaha";
 
-            
-            ps1.PrintAllDetails();
 
-            Console.WriteLine("-----------");
+            //ps1.PrintAllDetails();
 
-            person2.PrintAllDetails();
+            //Console.WriteLine("-----------");
 
-            string returnvalue = ps1.GetLocation();
-            Console.WriteLine(returnvalue);
+            //person2.PrintAllDetails();
+
+            //string returnvalue = ps1.GetLocation();
+            //Console.WriteLine(returnvalue);
+
+            Calculator cal = new Calculator();
+
+            Console.WriteLine("Get multiplication : {0}", cal.getDivision("23","c"));
 
             Console.ReadLine();
         }

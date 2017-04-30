@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{99AC738E-21C6-4D14-B888-BEDF7F01BD09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeAreaCal", "ShapeAreaCal\ShapeAreaCal.csproj", "{607943CE-E8DB-45FA-B6C1-C63523195B33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{99AC738E-21C6-4D14-B888-BEDF7F01BD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99AC738E-21C6-4D14-B888-BEDF7F01BD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99AC738E-21C6-4D14-B888-BEDF7F01BD09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607943CE-E8DB-45FA-B6C1-C63523195B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607943CE-E8DB-45FA-B6C1-C63523195B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607943CE-E8DB-45FA-B6C1-C63523195B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607943CE-E8DB-45FA-B6C1-C63523195B33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

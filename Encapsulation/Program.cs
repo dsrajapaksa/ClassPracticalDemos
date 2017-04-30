@@ -14,7 +14,7 @@ namespace Encapsulation
 
             Dog dg = new Dog();
             dg.Name = "Tomy";
-            dg.Id = 10; // This Cannot be access due to protection level
+       //     dg.Id = 10; // This Cannot be access due to protection level
 
             Console.ReadLine();
         }
