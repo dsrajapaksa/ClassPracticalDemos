@@ -20,7 +20,41 @@ namespace LoginApp
         public Dashboard(string name)
         {
             InitializeComponent();
-            label1.Text = "Hi " + name;
+            //label1.Text = "Hi " + name;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show
+                ("Date they start: " + monthCalendar1.SelectionStart.ToShortDateString());
+
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            notifyIcon1.Icon = SystemIcons.Application;
+            notifyIcon1.BalloonTipTitle = "Hello FROM This !";
+            notifyIcon1.BalloonTipText = "Hey, you just clicked it !";
+            notifyIcon1.ShowBalloonTip(1000);
+            notifyIcon1.Visible = true;
+            this.Hide();
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.Show();
+        }
+
+        int i = 10;
+        private void button3_Click(object sender, EventArgs e)
+        {
+            progressBar1.Value = i;
+            i=i + 10;
         }
     }
 }
