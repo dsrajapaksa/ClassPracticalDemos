@@ -27,7 +27,13 @@ namespace FirstGUIApp
         {
             int height = 97, width = 100;
 
-           pictureBox1.Size = new Size(width+trackBar.Value,height+trackBar.Value);
+           pictureBox1.Size = new Size(width + trackBar.Value,height + trackBar.Value);
+        }
+
+        private void trackBar1_ValueChanged(object sender, EventArgs e)
+        {
+            int point1 = 24, point2 = 63;
+            pictureBox1.Location = new Point(point1+ trackBar1.Value, point2 + trackBar1.Value);
         }
     }
 }
