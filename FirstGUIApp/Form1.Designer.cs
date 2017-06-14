@@ -33,20 +33,13 @@ namespace FirstGUIApp
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form123));
-            this.trackBar = new System.Windows.Forms.TrackBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).BeginInit();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.trackBar = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).BeginInit();
             this.SuspendLayout();
-            // 
-            // trackBar
-            // 
-            this.trackBar.Location = new System.Drawing.Point(12, 12);
-            this.trackBar.Maximum = 1000;
-            this.trackBar.Name = "trackBar";
-            this.trackBar.Size = new System.Drawing.Size(730, 45);
-            this.trackBar.TabIndex = 2;
-            this.trackBar.ValueChanged += new System.EventHandler(this.trackBar_ValueChanged);
             // 
             // pictureBox1
             // 
@@ -58,17 +51,37 @@ namespace FirstGUIApp
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(12, 392);
+            this.trackBar1.Maximum = 100;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(472, 45);
+            this.trackBar1.TabIndex = 4;
+            this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
+            // 
+            // trackBar
+            // 
+            this.trackBar.Location = new System.Drawing.Point(12, 12);
+            this.trackBar.Maximum = 1000;
+            this.trackBar.Name = "trackBar";
+            this.trackBar.Size = new System.Drawing.Size(730, 45);
+            this.trackBar.TabIndex = 2;
+            this.trackBar.ValueChanged += new System.EventHandler(this.trackBar_ValueChanged);
+            // 
             // Form123
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(889, 461);
+            this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.trackBar);
             this.Name = "Form123";
             this.Text = "Hello GUI!";
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,8 +90,9 @@ namespace FirstGUIApp
 
 
         #endregion
-        private TrackBar trackBar;
         private PictureBox pictureBox1;
+        private TrackBar trackBar1;
+        private TrackBar trackBar;
     }
 }
 
