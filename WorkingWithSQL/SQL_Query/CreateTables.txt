@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Student](
+	[id] [int] NULL,
+	[fname] [nvarchar](20) NULL,
+	[lname] [nvarchar](20) NULL,
+	[address] [nvarchar](30) NULL,
+	[gender] [nvarchar](20) NULL,
+	[city] [nvarchar](20) NULL,
+	[datejoined] [nvarchar](20) NULL,
+	[age] [int] NULL,
+	[tel] [int] NULL
+)
