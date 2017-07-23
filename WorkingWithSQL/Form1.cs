@@ -31,10 +31,13 @@ namespace WorkingWithSQL
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            refreshandGetData();
+        }
+
+        public void refreshandGetData()
+        {
             string sqlQuery = "SELECT * FROM Student";
-
             employeeDataGridView.DataSource = DBAccess.getTableData(sqlQuery);
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -52,6 +55,20 @@ namespace WorkingWithSQL
             std.phone = Convert.ToInt16( tELTextBox.Text);
 
             DBAccess.putDataToTable(std);
+
+        }
+
+        private void employeeDataGridView_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            ID = Convert.ToInt32(employeeDataGridView.Rows[e.RowIndex].Cells[0].Value.ToString());
+            iDTextBox.Text = ID.ToString();
+            fNAMETextBox.Text = employeeDataGridView.Rows[e.RowIndex].Cells[2].Value.ToString();
+        }
+
+        private void button_delete_Click(object sender, EventArgs e)
+        {
+            DBAccess.deleteDataFromTable(ID.ToString());
+                refreshandGetData();
 
         }
     }

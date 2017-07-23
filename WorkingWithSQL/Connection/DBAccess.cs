@@ -10,7 +10,6 @@ namespace WorkingWithSQL.Connection
 {
     class DBAccess
     {
-
         static SqlCommand cmd;
         static  SqlDataAdapter adapt;
         static SqlConnection sqlCon;
@@ -33,11 +32,8 @@ namespace WorkingWithSQL.Connection
                 System.Diagnostics.Debug.WriteLine(ex.Message);
                 return null;
             }
-
-
         }
-
-
+        
         public static bool putDataToTable(Student stundetObject)
         {
             try
@@ -58,12 +54,28 @@ namespace WorkingWithSQL.Connection
                 sqlCon.Close();
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
-               
             }
+        }
 
+        public static bool deleteDataFromTable(string Id)
+        {
+            try
+            {
+                cmd = new SqlCommand("DELETE FROM Student WHERE id=@id", sqlCon);
+                sqlCon.Open();
+                cmd.Parameters.AddWithValue("@id", Id);
+                cmd.ExecuteNonQuery();
+                sqlCon.Close();
+              
+                return true;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
         }
 
     }

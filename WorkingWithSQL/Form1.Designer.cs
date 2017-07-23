@@ -142,6 +142,7 @@
             this.employeeDataGridView.Name = "employeeDataGridView";
             this.employeeDataGridView.Size = new System.Drawing.Size(843, 289);
             this.employeeDataGridView.TabIndex = 1;
+            this.employeeDataGridView.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.employeeDataGridView_RowHeaderMouseClick);
             // 
             // iDTextBox
             // 
@@ -223,6 +224,7 @@
             this.button_delete.TabIndex = 20;
             this.button_delete.Text = "Delete";
             this.button_delete.UseVisualStyleBackColor = true;
+            this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
             // 
             // button_update
             // 
