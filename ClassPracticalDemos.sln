@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSaveDemo", "FileSaveDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{813D27AB-71C2-4849-8010-DAF22BF01189}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithSQL", "WorkingWithSQL\WorkingWithSQL.csproj", "{83A9E3DD-A723-442D-A7FD-92B2B2BA3333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBAPP1", "DBAPP1\DBAPP1.csproj", "{9B0BF529-0AE6-4C73-88A2-E0CA59D80FA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{813D27AB-71C2-4849-8010-DAF22BF01189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{813D27AB-71C2-4849-8010-DAF22BF01189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{813D27AB-71C2-4849-8010-DAF22BF01189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A9E3DD-A723-442D-A7FD-92B2B2BA3333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A9E3DD-A723-442D-A7FD-92B2B2BA3333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A9E3DD-A723-442D-A7FD-92B2B2BA3333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A9E3DD-A723-442D-A7FD-92B2B2BA3333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0BF529-0AE6-4C73-88A2-E0CA59D80FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0BF529-0AE6-4C73-88A2-E0CA59D80FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0BF529-0AE6-4C73-88A2-E0CA59D80FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0BF529-0AE6-4C73-88A2-E0CA59D80FA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
